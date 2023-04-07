@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fourthsemester.OrderListController">
+
+    <TableView fx:id="orderList">
+        <columns>
+            <TableColumn fx:id="ProductName" text="name" />
+            <TableColumn fx:id="productWeight" text="weight" />
+            <TableColumn fx:id="ProductPrice" text="price" />
+            <TableColumn fx:id="totalPriceColum" text="Total Price" />
+        </columns>
+    </TableView>
+
+
+
+    <!-- Buttons to add or remove items -->
+    <HBox alignment="CENTER" spacing="10" />
+
+
+    <!-- Label to display the order total -->
+    <Label fx:id="totalLabe" text="Order Total: $" />
+
+    <!-- Checkout button to submit the order -->
+    <Button fx:id="checkoutButto" text="Checkout" />
+
+
+
+
+</VBox>

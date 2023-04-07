@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fourthsemester.homeController">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="60.0" prefWidth="566.0" style="-fx-background-color: #27D697;" />
+      <AnchorPane layoutY="60.0" prefHeight="291.0" prefWidth="161.0" style="-fx-background-color: E3FEF4;">
+         <children>
+            <Button layoutX="30.0" layoutY="29.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="94.0" style="-fx-background-color: #27D697;" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="30.0" layoutY="105.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="94.0" style="-fx-background-color: #27D697;" text="Cart" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="30.0" layoutY="66.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="94.0" style="-fx-background-color: #27D697;" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="257.0" fitWidth="355.0" layoutX="174.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="220.0" fitWidth="311.0" layoutX="201.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myImage" fitHeight="148.0" fitWidth="389.0" layoutX="216.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Images/grocbac1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
